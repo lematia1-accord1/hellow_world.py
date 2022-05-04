@@ -1,7 +1,7 @@
 ## import the required packages
 from flask import Flask, request, jsonify
-from flask-sqlalchemy import SQLAlchemy
-from flask-marshmallow import Marshmallow
+from flask_sqlalchemy import SQLAlchemy
+from flask_marshmallow import Marshmallow
 
 # inti app
 app = Flask(__name__)
@@ -12,4 +12,4 @@ def get_hellow_world_massage():
 
 # run the server
 if __name__ == "__main__":
-    app.run=(debug=True)
+    app.run(debug=True)
